@@ -3,6 +3,12 @@ Se implementó un programa en Python que con base a una gramática y una cadena,
 E → E + T | T
 T → T * F | F
 F → num | (E)
+- El programa lee una o varias expresiones desde un archivo de texto.
+- Construye el árbol sintáctico correspondiente.
+- Dibuja el árbol gráficamente con matplotlib.
+En el archivo de entrada se encuentra el ejemplo 5+15*2
+
+
 
 Gracias a la gramatica permite analizar cadenas como:
 - 10+5*2
