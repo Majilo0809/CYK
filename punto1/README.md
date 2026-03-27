@@ -1,8 +1,10 @@
 Se implementó un programa en Python que con base a una gramática y una cadena, construye y muestra su árbol de sintaxis de forma gráfica utilizando matplotlib.
 ## Gramatica
-E → E + T | T
-T → T * F | F
-F → num | (E)
+- E → E + T | T
+- T → T * F | F
+- F → num | (E)
+
+  
 - El programa lee una o varias expresiones desde un archivo de texto.
 - Construye el árbol sintáctico correspondiente.
 - Dibuja el árbol gráficamente con matplotlib.
@@ -24,3 +26,4 @@ En el archivo de entrada se encuentra el ejemplo 5+15*2
 
 <img width="995" height="565" alt="image" src="https://github.com/user-attachments/assets/52f997d8-2fcd-4499-ba48-ff3a83d04ca2" />
 
+El análisis sintáctico permite comprobar si una cadena cumple o no con la gramática definida. Además, el árbol generado muestra cómo la expresión se organiza internamente según la precedencia de los operadores, por ejemplo, la multiplicación tiene mayor prioridad que la suma. La representación gráfica con matplotlib facilita entender visualmente la estructura de la expresión.
