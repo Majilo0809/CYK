@@ -1,4 +1,4 @@
-<img width="800" height="386" alt="image" src="https://github.com/user-attachments/assets/f08b8f05-2a53-4d3d-8d83-fd191ba9936b" />En este ejercicio se compara el comportamiento, eficiencia y resultados obtenidos al analizar cadenas aritméticas. el pro
+En este ejercicio se compara el comportamiento, eficiencia y resultados obtenidos al analizar cadenas aritméticas. el pro
 En el programa se generan expresiones aleatorias, se aplica el algoritmo CYK para medir el tiempo de ejecución y el uso de memoria
 Permitiendo analizar el comportamiento del algoritmo cuando el tamaño de la cadena aumenta. Cabe resaltar que ambos cuentan con la misma gramatica
 
